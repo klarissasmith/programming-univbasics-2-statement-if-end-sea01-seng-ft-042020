@@ -1,8 +1,10 @@
 # Write your solution here
-if Time.now == even?
+time = Time.now
+
+if time.even?
   puts "Even!"
 end
 
-if Time.now.odd?
+if time.odd?
   puts "Odd!"
 end
